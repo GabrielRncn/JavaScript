@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Cadastre a Aluno aqui:</h3>
+   <label for="nome">Nome:</label>
+   <input type="text" id="nome" placeholder="Digite o seu nome">
+   <button onclick="validarNome()">Validar</button>
+   <p id="saidaNome"></p>
+
+   <label for="cpf">CPF:</label>
+   <input type="text" id="cpf" placeholder="xxx.xxx.xxx.xx">
+   <button onclick="validarCpf()">Validar</button>
+   <saida id="saidaCpf"></saida>
+   
+   
+   <label for="numero">Numero de Telefone:</label>
+   <input type="text" id="numeroTelefone" placeholder="xx xxxxx-xxxx">
+   <button onclick="validarTelefone()">Validar</button>
+   <p id="saidaTelefone"></p>
+
+   <label for="matricula">Numero de Matricula:</label>
+   <input type="text" id="numeroMatricula" maxlength="7">
+   <p id="saidaMatricula"></p>
+
+   <label for="turma">Turma:</label>
+   <input type="text" id="nomeTurma">
+   <button onclick="validarTurma()">Validar</button>
+   <p id="saidaTurma"></p>
+
+   <label for="disciplina">Disciplina:</label>
+   <input type="text" id="nomeDisciplina">
+   <button onclick="validarDisciplina()">Validar</button>
+   <p id="saidaDisciplina"></p>
+
+   <label for="data">Data:</label>
+   <input type="text" id="data" placeholder="dd/mm">
+   <p id="saidaData"></p>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
